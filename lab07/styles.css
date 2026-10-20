@@ -10,7 +10,7 @@ h1, h2, h3 {
 }
 nav {
   background-color: #222222;
-  color: @FFFFFF;
+  color: #FFFFFF;
   padding: 10px;
   margin-bottom: 30px;
 }
