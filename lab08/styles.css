@@ -24,9 +24,85 @@ nav a:hover {
 /* Lab 8 additions */
 .tagline {
   float: right;
-  margin: 0;
+  margin: 16px 0;
 }
 
 footer {
   overflow: auto;
+}
+
+/* Contact page layout */
+main {
+  margin: 0 20px;
+}
+
+.row1, .row2 {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.row1 {
+  background-color: #E9DDE1;
+  margin-bottom: 30px;
+}
+
+.row2 {
+  background-color: #DDE6F0;
+  margin-bottom: 30px;
+}
+
+.col1, .col2 {
+  flex: 1;
+}
+
+.row1 img {
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+/* Map fills its column */
+.row2 iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  border-radius: 10px;
+}
+
+/* Form styling */
+.row2 h2 {
+  margin-top: 0;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form select,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #999999;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+form input[type="submit"] {
+  background-color: #7A1F3D;
+  color: #FFFFFF;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #A33A5B;
 }
